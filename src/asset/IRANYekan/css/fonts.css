@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'IRANYekanWeb(Light)';
+    src: url('./fonts/IRANYekanWebFaNum-Light.eot');
+    src: url('./fonts/IRANYekanWebFaNum-Light.eot?#iefix') format('embedded-opentype'), url('./fonts/IRANYekanWebFaNum-Light.woff2') format('woff2'), url('./fonts/IRANYekanWebFaNum-Light.woff') format('woff'), url('./fonts/IRANYekanWebFaNum-Light.ttf') format('truetype'), url('./fonts/IRANYekanWebFaNum-Light.svg#IRANYekanWebFaNum-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANYekanWeb(FaNum)';
+    src: url('./fonts/IRANYekanWebFaNum.eot');
+    src: url('./fonts/IRANYekanWebFaNum.eot?#iefix') format('embedded-opentype'), url('./fonts/IRANYekanWebFaNum.woff2') format('woff2'), url('./fonts/IRANYekanWebFaNum.woff') format('woff'), url('./fonts/IRANYekanWebFaNum.ttf') format('truetype'), url('./fonts/IRANYekanWebFaNum.svg#IRANYekanWebFaNum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANYekanWeb(Bold)';
+    src: url('./fonts/IRANYekanWebFaNum-Bold.eot');
+    src: url('./fonts/IRANYekanWebFaNum-Bold.eot?#iefix') format('embedded-opentype'), url('./fonts/IRANYekanWebFaNum-Bold.woff2') format('woff2'), url('./fonts/IRANYekanWebFaNum-Bold.woff') format('woff'), url('./fonts/IRANYekanWebFaNum-Bold.ttf') format('truetype'), url('./fonts/IRANYekanWebFaNum-Bold.svg#IRANYekanWebFaNum-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

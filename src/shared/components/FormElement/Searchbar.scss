@@ -1,0 +1,35 @@
+.searchbar{
+    background-color: #ffffffbb;
+    height: 40px;
+    border-radius: 10px;
+    min-width: 350px;
+    display: grid;
+    position: relative;
+    font-size: 20px;
+    justify-items: left;
+
+    &__btn{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    height: 40px;
+    padding-bottom: 5px;
+    color: #81b214;
+    }
+
+    &__text-area{
+        width: 93%;
+        border-radius: 10px;
+        background-color: #ffffff00;
+        border: none;
+        margin-bottom: 4px;
+        &::placeholder{
+            font-size: 13px;
+            padding-right: 7px;
+            line-height: 30px;
+            margin-top: 5px;
+            align-items: center;
+
+        }
+    }
+}

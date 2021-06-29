@@ -1,0 +1,39 @@
+.user-profile{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+    padding-bottom:2rem;
+    display: flex;
+    flex-direction: row;
+
+    &__image {
+        
+        img{
+            width:10rem;
+        }
+    }
+    
+    &__detail{
+        flex: 1;
+        padding-top:.5rem;
+        padding-right: 1.5rem;
+        text-align: right;
+        color: #717171;
+    }
+
+    .edit-btn{
+        border: none;
+        color: black;
+        background-color: #f8df00;
+        border-radius: 20px;
+        height: 2.5rem;
+        width: 9rem;
+    }
+
+    .flw-btn{
+        border: none;
+        color: white;
+        background-color: #ff4382;
+        border-radius: 20px;
+        height: 2.5rem;
+        width: 9rem;
+    }
+}

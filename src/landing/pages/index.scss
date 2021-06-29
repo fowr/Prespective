@@ -1,0 +1,109 @@
+.trend__section{
+    &-header{
+        text-align: center;
+        margin:50px 0;
+        font-weight: 700;
+    }
+}
+    
+    .grid {
+        display: grid;
+        // gap: 20px;
+        justify-content: center;
+        padding: 0 100px;
+        margin: 0;
+        grid-template-columns: repeat(2, 50vw);
+        grid-auto-rows: 50vw;
+        grid-auto-flow: dense;
+      }
+
+      .grid__item--wide {
+        grid-column: auto/span 2;
+      }
+      .grid__item--tall {
+        grid-row: auto/span 2;
+      }
+      .grid__item--big {
+        grid-column: auto/span 2;
+        grid-row: auto/span 2;
+      }
+
+     
+  
+
+  @media (min-width: 26rem) {
+    .grid {
+      grid-template-columns: repeat(3, 33.333333333333336vw);
+      grid-auto-rows: 33.333333333333336vw;
+    }
+  }
+  @media (min-width: 50rem) {
+    .grid {
+      grid-template-columns: repeat(4, 25vw);
+      grid-auto-rows: 25vw;
+    }
+  }
+  @media (min-width: 60rem) {
+    .grid {
+      grid-template-columns: repeat(5, 20vw);
+      grid-auto-rows: 20vw;
+    }
+  }
+  @media (min-width: 80rem) {
+    .grid {
+      grid-template-columns: repeat(6, 16.666666666666668vw);
+      grid-auto-rows: 16.666666666666668vw;
+    }
+  }
+  
+  
+  
+// .row{
+//     justify-content:center;
+// }
+
+// .about-section{
+//     min-height: 40vh;
+//     background-color:transparent;
+//     padding-top:50px;
+
+//     &__heading{
+//        color: #b7ab41;
+//        font-size: 2.5rem;
+//        font-weight: 600;
+//        text-align: center;
+//        padding-bottom: 2rem;
+//     }
+//     &__icon{
+//         display:grid;
+//         justify-content:center;
+//         font-size: 8rem;
+//         color:#cec153;
+//         height:9rem;
+//     }
+//     &__card{
+//         h2{margin-top: -20px;
+//             text-align: center;
+//             font-size: 1.5rem;
+//             font-weight: 600;
+//             color: #8a887dad;
+//             line-height: 2;
+        
+//         }
+//     }
+// }
+
+// @media (max-width: 990px) {
+//     .about-section__card{
+//     margin-bottom: 20px;
+//     }
+    
+        
+   
+// }
+
+// @media (max-width:768px){
+//     #root {
+//         padding-bottom: 30rem;
+//     }
+// }

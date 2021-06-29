@@ -1,0 +1,38 @@
+.footer{
+   
+    background:linear-gradient(to right ,#8c8f0088,#9c9200a4);
+    background-size: cover;
+    background-position: top;
+    min-height:15rem;
+    color: #fff;
+    padding-top: 20px ;
+    
+    h3{
+        font-weight: 900;
+        display: block;
+    }
+    .center{
+        flex-direction:column
+    }
+    p{  
+        padding: 10px!important;;
+        text-align: right;
+        justify-content:right;
+        font-weight: 600;
+    }
+
+    &-contactus{
+        padding: 20px 40px;
+        h4{
+            line-height:2;
+            font-size:1.3rem;
+            span{
+                font-weight: 900;
+                color: #ffedb6;
+            }
+        }
+    }
+    &-aboutus{
+        padding: 20px 40px;
+    }
+}

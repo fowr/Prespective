@@ -1,0 +1,11 @@
+.side-drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 70%;
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1273%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c134 C 48%2c151.4 144%2c222.2 240%2c221 C 336%2c219.8 384%2c121 480%2c128 C 576%2c135 624%2c255.4 720%2c256 C 816%2c256.6 864%2c133.4 960%2c131 C 1056%2c128.6 1104%2c253.4 1200%2c244 C 1296%2c234.6 1392%2c116 1440%2c84L1440 560L0 560z' fill='rgba(249%2c 249%2c 208%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c552 C 96%2c503.6 288%2c312 480%2c310 C 672%2c308 768%2c527.2 960%2c542 C 1152%2c556.8 1344%2c415.6 1440%2c384L1440 560L0 560z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1273'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  }
