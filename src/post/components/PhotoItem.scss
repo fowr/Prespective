@@ -1,6 +1,18 @@
 .photo-item {
     margin: 1rem 0;
     list-style-type: none;
+      a{
+      text-align: center;
+    text-decoration: none;
+    border: 2px solid #0095f6;
+    color: #0095f6;
+    height: 25px;
+    line-height: 20px;
+    &:hover{
+      background-color: #0095f6;
+      color: #fff;
+    }
+    }
     
   }
   
