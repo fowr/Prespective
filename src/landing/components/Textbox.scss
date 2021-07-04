@@ -1,4 +1,5 @@
 .header__text-box {
+    width: auto;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -14,12 +15,15 @@
 
     &__main{
         display: block;
-        font-size: 6.5rem;
-        letter-spacing: 1.5rem;
+        font-size: 8.5rem;
+        letter-spacing: 1rem;
         font-weight: 400;
         text-align: right;
         animation: moveInLeft 1s;
-        margin-bottom: 3.5rem;
+        margin-bottom: 4.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.767);
+    font-family: 'B Elm';  
     }
     &__sub{
         text-align: center;
@@ -27,6 +31,8 @@
         font-size: 2rem;
         font-weight: 400;
         animation: moveInRight 1.5s;
+        color: #FFFFFF;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
     }
     
 }

@@ -1,30 +1,21 @@
 import React from 'react'
 import './UserProfile.scss'
+import { FiUserPlus } from 'react-icons/fi'
 function UserProfile(props) {
-    if(props.dashboard)return(
-        <div className="user-profile">
-        <div className="user-profile__image"> 
-        <img src={props.image}  alt={props.name}/>
-
-        </div>
-        <div className="user-profile__detail">
-        <h3>{props.name}</h3>
-        <h6>{props.follower} دنبال کننده</h6>
-        <h6>{props.following} دنبال شونده</h6>
-        <button className="edit-btn">تغییر مشخصات</button>
-        </div>
-    </div>)
+ 
     return (
         <div className="user-profile">
             <div className="user-profile__image"> 
-            <img src={props.image}  alt={props.name}/>
+            <img src={props.item.image}  alt={props.item.name}/>
 
             </div>
             <div className="user-profile__detail">
-            <h3>{props.name}</h3>
-            <h6>{props.follower} دنبال کننده</h6>
-            <h6>{props.following} دنبال شونده</h6>
-            <button className="flw-btn">دنبال کردن</button>
+            <h3>{props.item.name}</h3>
+            <h6>{props.item.follower} دنبال کننده</h6>
+            <h6>{props.item.following} دنبال شونده</h6>
+            <button className="follow-btn">دنبال کردن <FiUserPlus/></button>
+            
+            
             </div>
         </div>
     )

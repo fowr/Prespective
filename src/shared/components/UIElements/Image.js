@@ -8,7 +8,7 @@ const list_style=["grid__item grid__item--wide","grid__item","grid__item grid__i
             return( <li className={list_style[Math.floor(Math.random() * list_style.length)]}>
                         <img className="grid__image" src={props.src} alt={props.alt}/>
                         <div className='hover__container'>
-                            <Link to= {"photos/" + props.photoId}><b>مشاهده</b></Link>
+                            <Link to= {"/photos/" + props.photoId}><b>مشاهده</b></Link>
                             <div className="hover__container-btns">
                                 <FiHeart/>
                                 <FiDownload/>

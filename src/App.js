@@ -2,13 +2,13 @@ import './App.scss';
 import '../node_modules/bootstrap/scss/bootstrap.scss'
 import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom'
 import Users from './user/pages/Users';
-import UserPhotos from './post/pages/UserPhotos';
+import UserPhotos from './user/pages/UserPhotos';
 import MainNavigation from './shared/components/Navigation/MainNavigation'
 import Index from './landing/pages/Index'
 import Footer from './shared/components/Navigation/Footer'
 import SignIn from './auth/SignIn'
 import SignUp from './auth/SignUp'
-import Dashboard from './user/pages/User'
+import Dashboard from './user/pages/Dashboard'
 import Photo from './post/pages/Photo';
 
 

@@ -1,5 +1,6 @@
 .photodetail{
     position: fixed;
+    z-index: 1;
     top: 5.5rem;
     right: 0rem;
     height: 100px;
@@ -8,11 +9,94 @@
     background-color: rgb(255, 255, 255);
     &__photographer{
         position: relative;
-
         &-img{
-            width: 60px;
-            height: 60px;
+            position: absolute;
+            width:  80px;
+            height: 80px;
+            border-radius: 50%;
+            top: 10px;
+            right: 40px;
+        }
+        &-name{
+            color: #767676;
+            position: absolute;
+            top: 15px;
+            right: 130px;
+            font-size: 19px;
+            font-weight: 800;
+        }
+        &-status{
+            color: #81b214;
+        font-size: 12px;
+         
+        }
+
+        &-contact{
+            position: absolute;
+            top: 50px;
+            right: 120px;
+        }
+        &-follow{
+            position: absolute;
+            font-size: 15px;
+            top: 50px;
+            right: 130px;
+            color:#0095f6;
+            border: 2px solid #0095f6;
+            border-radius: 10px;
+            width: 200px;
+
+            &:hover{
+                background-color: #0095f6;
+                color: #fff;
+            }
         }
     }
 
+}
+.photo--img{
+    border-radius: 10px;
+}
+.view{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #767676;
+    text-align: center;
+    svg{
+        padding-bottom:10px;
+    }
+}
+.actionBtn{
+
+    button{
+        background-color: transparent;
+        font-size: 18px;
+        
+    }
+    &__like{
+        color: red;
+        border-color: rgba(255, 0, 0, 0.712);
+        border-radius: 10px ;
+        font-size: 18px;
+        margin-right: 15px;
+
+        i{
+            font-size: 30px;
+            line-height: 30px;
+            
+        }
+    }
+    &__download{
+        color: #81b214;
+        border-radius: 10px ;
+        border: 3px solid #81b214;
+        margin-right: 15px;
+        font-size: 18px;
+        i{
+            font-size: 30px;
+            line-height: 30px;
+
+        }
+    }
+ 
 }

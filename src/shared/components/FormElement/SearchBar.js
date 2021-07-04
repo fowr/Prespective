@@ -3,9 +3,12 @@ import './Searchbar.scss'
 import { Link } from 'react-router-dom';
 import {FiSearch} from "react-icons/fi";
 
-export default function SearchBar() {
+
+var style={width:'500px'}
+
+export default function SearchBar(props) {
     return (
-        <div className="searchbar">
+        <div className="searchbar"  style={style}>
           
             <Link href="/auth" className="searchbar__btn">  
                 <FiSearch />

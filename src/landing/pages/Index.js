@@ -1,6 +1,6 @@
 import React from 'react'
 import MainHeader from '../components/MainHeader'
-import Image from '../components/Image';
+import Image from '../../shared/components/UIElements/Image';
 import './index.scss'
 
 const Index= ()=>{
@@ -14,7 +14,7 @@ const Index= ()=>{
 <h1 className="trend__section-header" >جدیدترین آثار عکاسان پرسپکتیو</h1>
 <ul className="grid">
 
-{img_list.map(Element => <Image photoId={Element.photoId}src={Element.src} alt={Element.alt}/>)}
+{img_list.map((Element,index) => <Image key={index} photoId={Element.photoId}src={Element.src} alt={Element.alt}/>)}
 
  
   
